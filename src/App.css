@@ -1,0 +1,66 @@
+.container {
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    padding:20px;      
+}
+body{
+    background-color:darkcyan;
+}
+ul li{
+    list-style: none;
+}
+.list{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 50px 10px 0px ;
+    margin-top: 10px;
+}
+li{
+    background-color: rgba(0, 0, 255, 0.405);
+    margin-top: 20px;
+    padding: 5px;
+    width: 540px;
+    text-align: left;
+    border-radius: 20px;       
+}
+button{
+    cursor: pointer;
+    background-color: orange;
+   
+}
+.edit-icon{
+    float: right;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.648);
+}
+.edit-icon:hover{
+    cursor:white;
+    cursor: pointer;
+}
+.delete-icon{
+    color:white;
+    margin-right: 15px;
+    background-color: blue;
+    float: right;
+}
+.delete-icon:hover{
+    cursor: pointer;
+}
+.checkbox{
+    float: left;
+    text-align: center;
+}
+.input{
+    padding:6px;
+    width: 260px;
+    border-radius: 30px;
+}
+.inputfield {
+    width: 105%;
+    padding: 6px 1rem;
+    background: #3e3e5a;
+    border-radius: 70px;
+    box-shadow: 2px 2px 2px yellow inset;
+}
